@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#302f49 ;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    background-color:transparent;
+    padding-top: 50px;
+   padding-left: 8%;
+   padding-right: 8%;
+   
+}
+span{
+    color: red;
+}
+.nav li a{
+    text-decoration: none;
+    display:block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;   
+}
+.nav li a:hover{
+    color: #8e8ab4;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+    
+img{
+    height: 375px;
+    width: 300px;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+h2 {
+    color:whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+a{
+    color: black;
+}
+h1{
+    margin-left: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: whitesmoke;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.img img{
+    border-radius: 30px;
+}
+th,td{
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 10px;
+}
+.edu{
+        margin-left: 450px;
+        margin-right: auto;
+    
+      }
+.intro{
+    background-color: #b5b0cc;
+    margin: 40px;
+    border-radius: 20px;
+}
+.intro p{
+    padding: 10px;
+
+    text-align: center;
+}
+.intro ul{
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.intro h3{
+    padding-top: 20px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+.more{
+  display: flex;
+    padding: auto;
+    font-size: 30px;
+    justify-content:space-around;
+}
+ h3{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.more img{
+   margin-top: 40px;
+    height: 200px;
+    width: 250px;
+    border-radius: 40px;
+    
+}
+.more p,a{
+    color: whitesmoke;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    
+}
+.foot form{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.foot form input{
+ 
+    margin-top: 40px;
+    width:50%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-style: none;
+    border-radius: 30px;
+}
+.soci{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.soci ion-icon{
+    height: 50px;
+    width: 50px;
+    transition: .3s;
+
+}
+.soci ion-icon:hover{
+    transform: scale(1.3)
+}
